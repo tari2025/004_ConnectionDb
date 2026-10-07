@@ -18,3 +18,6 @@ const pool = new pg.Pool({
     port: 5432
 })
 
+app.get('/', (req, res) => {
+    console.log("Tes DATA");
+    
